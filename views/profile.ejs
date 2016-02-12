@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Our Knoweldge</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body        { padding-top:80px; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-user"></span> Perfil de Usuario</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Cerrar Sesion</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> Usuario Local</h3>
+
+                    <p>
+                        <!--<strong>id</strong>: <%= user._id %><br> -->
+                        <strong>Correo</strong>: <%= user.local.email %><br>
+                        <!--<strong>Contraseña</strong>: <%= user.local.password % -->
+                    </p>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
